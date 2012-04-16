@@ -1,13 +1,33 @@
 Tittel: (bra om du kommer på noe kulere)
-Å sette opp en prodserver er enkelt (og automatisk)
+Sky-klar drift for utviklere!
 
 Til Abstract:
-Er du lei av en lang og tung vei for å få applikasjonen din ut i prod? Ta kontrollen selv! Applikasjonsdrift behøver ikke være vanskelig, ihvertfall ikke hvis du har noenlunde vanlig webapp. Vi viser deg hvordan du kan sette opp et fullverdig prodmiljø for appen din og teste det ut lokalt på maskinen din, før du kan kjøre det ut på en eller flere ekte servere. I DevOps-ånd vil vi automatisere det hele i størst mulig grad med verktøy som VirtualBox, Vagrant og Puppet.
+Er du lei av en lang og tung vei for å få applikasjonen din ut i prod? Ta kontrollen selv! Applikasjonsdrift behøver ikke være vanskelig. Vi viser deg hvordan du kan sette opp et fullverdig produksjonslikt utviklingsmiljø for din applikasjon din og test det ut lokalt på maskinen din, før du kan kjører det ut i skya. 
+I DevOps-ånd vil vi vise hvor raskt og smertefritt dette kan være. Stikkord er automatisering, infrastruktur som kode og automatisk deployment med hjelp av puppet for konfigurasjonsstyring, vagrant for lokal virtualisering og Amazon EC2 som prodmiljø. Vil du lære om hvordan du kan rigge infrastrukturen din for kontinuerlige leveranser? Da er dette foredraget for deg!
 
 Til outline:
-Vet ikke hva vi må fylle inn her men tenker på et program som ser ca ut som nedenfor. Syns alt bør foregå live hvis vi klarer det, alt blir så mye mye kulere da.
+
+ Tidsplan:
+ * Intro til teknologiene (10 min)
+ * Oppsett av lokalt utviklingsmiljø (15 min)
+ * Oppsett av prodmiljø (10 min)
+ * Deployment av app (10 min)
+ * Endring av app  og infrastruktur i prod (5 min)
+ * Spørsmål fra salen
+
+
+Expected auduence:
+  Utviklere og driftere som ønsker å lære seg å styre infrastruktur med Puppet og produksjonssette kontinuerlig, eller som ønsker seg en introduksjon til Puppet generelt.
+  Vi ønsker å vise deg hvordan man kan komme fra null til skya på èn kort time, hvor lett det er å endre eksiterende infrastruktur og hvordan lokal virtualisering av prodlikt miljø hjelper deg på veien til å levere kontinuerlig.
+
+
+Equipment:
+
+ Det er fint om vi kan få disponere to projektorer da vi gjerne vil vise flere ting samtidig.
 
 - Bakgrunn 
+
+
  - Vi utviklere er lei av at det skal være tungt å deploye applikasjonene våre
  - Nevne  eksempler fra egne prosjekter der vi vi har appdrift selv og hvordan vi syns det fungerer
  - Virtuelle miljøer og provisjonering, gjerne med clouddservere gjør at prodmiljøer for nye apper er enkelt å sette opp
@@ -28,9 +48,4 @@ Vet ikke hva vi må fylle inn her men tenker på et program som ser ca ut som ne
  - link åpent github repo med alt vi nettopp har vist frem slik at alle kan prøve seg frem på egen hånd
 
 
-Jeg tror vi har et par utfordringer, men at disse er overkommerlige:
-- Vi er innom ganske mange rammeverk/teknologier som kan bli litt mye for folk. Vi får prøve å forklare kort hva alt er, og heller gjøre det klart at man som publikum ikke må skjønne alt 100%, men at prinsippet er at dette ikke er vanskelig eller behøver å ta lang tid.
-- Hvis vi skal gjøre alt live kommer det nok til å bli en del venting når servere skal starte opp og ting skal installeres (provisjoneringen). Det kan hende vi kan løse dette ved å kjøre en del snakking imens de tyngste kommandoene skal gå, og gjerne svare på spørsmål fra salen.
-
-Bare ring meg for avklaringer så sender vi inn det her!
 
